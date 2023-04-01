@@ -367,7 +367,7 @@ img {
     position: relative;
     height: 100%;
     display: grid;
-    grid-template-columns: 2fr .25fr;
+    grid-template-columns: 5fr;
     align-content: center;
 }
 
@@ -377,7 +377,7 @@ img {
 }
 
 .islands__subtitle {
-    font-size: var(--biggest-font-size);
+    font-size: calc(var(--biggest-font-size) - 14px);
     font-weight: var(--font-medium);
     color: var(--white-color);
 }
